@@ -1,7 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Helvetica', sans-serif;
     color: white;
     background-color: #404040;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a:link {
@@ -15,9 +27,9 @@ a:visited {
 img.center{
     display: block;
     height: auto;
-    width: 350px;
-    margin-left: auto;
+    width: 300px;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .shadow {

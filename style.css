@@ -1,0 +1,27 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    background-color: black;
+}
+img {
+    height:auto;
+    width: 400px;
+}
+
+.shadow {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.phantom {
+    font-size: 42px;
+    text-align: center;
+}
+
+.shadow.ghost {
+    width: auto;
+}

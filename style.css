@@ -1,7 +1,15 @@
 body {
     font-family: 'Helvetica', sans-serif;
     color: white;
-    background-color: black;
+    background-color: #404040;
+}
+
+a:link {
+    color: #ffff66;
+}
+
+a:visited {
+    color: #ff66ff;
 }
 
 img.center{

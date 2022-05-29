@@ -1,11 +1,15 @@
-body {
+* {
     font-family: 'Helvetica', sans-serif;
     color: white;
     background-color: black;
 }
-img {
-    height:auto;
-    width: 400px;
+
+img.center{
+    display: block;
+    height: auto;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shadow {
@@ -23,5 +27,6 @@ img {
 }
 
 .shadow.ghost {
+    text-align: center;
     width: auto;
 }
